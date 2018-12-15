@@ -44,5 +44,6 @@ else {
 	document.getElementById("outputMaxAmountWon").innerText = ("$" + maxAmountWon.toFixed(2));
 	document.getElementById("outputRollsAtMaxAmountWon").innerText = rollsAtMaxAmountWon;
 	document.getElementById("results").style.display = ""
+	document.getElementById("clickBtnAgain").innerText = "Play Again";
 }
 }
