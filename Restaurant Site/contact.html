@@ -52,31 +52,30 @@
 <header>
     <h1>Big Belly Burger</h1>
     <hr/>
-
 </header>
 
-<nav>
-    <div class="right-content"><a href="home.html" class="btn badge-pill">
-        <i class="fa fa-home"></i></a></div>
-
-    <div class="right-content"><p><a class="btn badge-pill" href="menu.html">Menu</a></p></div>
-
-    <div class="right-content"><p><a class="btn badge-pill" href="contact.html">Contact Us</a></p></div>
-
-    <div style="clear:both"></div>
-
-    <hr/>
-</nav>
-
-<div class="noJavaScript">
-    <noscript> <!-- if JavaScript is disabled -->
-        For full functionality of this site it is necessary to enable JavaScript.
-        Here are the <a href="https://www.enable-javascript.com/">
-            instructions how to enable JavaScript in your web browser</a>.
-    </noscript>
-</div>
-
 <div class="container">
+
+    <nav>
+        <div class="right-content"><a href="home.html" class="btn badge-pill">
+            <i class="fa fa-home"></i></a></div>
+
+        <div class="right-content"><p><a class="btn badge-pill" href="menu.html">Menu</a></p></div>
+
+        <div class="right-content"><p><a class="btn badge-pill" href="contact.html">Contact Us</a></p></div>
+
+        <div style="clear:both"></div>
+
+        <hr/>
+    </nav>
+
+    <div class="noJavaScript">
+        <noscript> <!-- if JavaScript is disabled -->
+            For full functionality of this site it is necessary to enable JavaScript.
+            Here are the <a href="https://www.enable-javascript.com/">
+                instructions how to enable JavaScript in your web browser</a>.
+        </noscript>
+    </div>
 
     <form name="contactUs" action="" method="POST" onsubmit="return validateContactForm();">
 
@@ -239,7 +238,7 @@
 
             <div class="col-md text-center">
 
-                <button type="submit" class="btn badge-pill">Send Request</button>
+                <button type="submit" id="submitButton" class="btn badge-pill">Send Request</button>
 
             </div>
 

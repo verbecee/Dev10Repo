@@ -98,3 +98,8 @@ h5 {
 	text-align: center;
 	margin-top: 15px;
 }
+
+#submitButton {
+	background-color: #dddf3b;
+	color: #a51818;
+}
