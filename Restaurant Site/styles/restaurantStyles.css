@@ -45,7 +45,7 @@ nav .btn {
 }
 
 nav .btn:visited {
-  color: #69411f;
+  color: blue;
 }
 
 nav .btn:hover {
@@ -86,6 +86,7 @@ h5 {
 
 #ribbon {
 	color:#a51818;
+	font-size: 1.5em;
 
 }
 
