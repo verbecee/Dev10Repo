@@ -12,9 +12,6 @@ function clearErrors() {
     }    
 } 
 
-
-
-
 function validateContactForm() {
     clearErrors();
 
