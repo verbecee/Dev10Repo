@@ -8,15 +8,12 @@ body {
 	background-color: #a51818;
 	font-family: verdana, geneva, sans-serif;
 	color: #ffffff;
-	/*max-width: 900px;
-	margin: 0 auto;*/
 	height: 100%;
 }
 
 header, footer {
 	background-color: #ffffff;
 	color: #69411f;
-	/*height: 100px;*/
 	text-align: center;
 }
 
