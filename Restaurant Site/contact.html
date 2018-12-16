@@ -52,6 +52,11 @@
         .clearFloats {
             clear: both;
         }
+
+        #contactUs {
+            margin-bottom: 200px;
+        }
+
     </style>
 </head>
 
@@ -84,7 +89,7 @@
         </noscript>
     </div>
 
-    <form name="contactUs" action="" method="POST" onsubmit="return validateContactForm();">
+    <form name="contactUs" id="contactUs" action="" method="POST" onsubmit="return validateContactForm();">
 
         <div class="form-group row"> <!--Insert Name section-->
             <label for="inputName" class="col-sm-4 col-form-label required alignRight" >Name</label>
