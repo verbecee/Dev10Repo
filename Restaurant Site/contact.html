@@ -63,7 +63,7 @@
 
 <div class="container">
 
-    <nav>
+    <nav> <!--Home icon, menu, and contact buttons-->
         <div class="right-content"><a href="home.html" class="btn badge-pill">
             <i class="fa fa-home"></i></a></div>
 
@@ -87,50 +87,34 @@
     <form name="contactUs" action="" method="POST" onsubmit="return validateContactForm();">
 
         <div class="form-group row"> <!--Insert Name section-->
-
             <label for="inputName" class="col-sm-4 col-form-label required alignRight" >Name</label>
-
             <div class="col-sm-6">
-
                 <input type="text" class="form-control" id="inputName" placeholder="Your name here">
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Email section-->
-
+        <!--Insert email section-->
+        <div class="form-group row">
             <label for="inputEmail" class="col-sm-4 col-form-label required alignRight" >Email</label>
-
             <div class="col-sm-6">
-
                 <input type="email" class="form-control" id="inputEmail" placeholder="Your email here">
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Phone section-->
-
+        <!--Phone section-->
+        <div class="form-group row">
             <label for="inputTel" class="col-sm-4 col-form-label required alignRight" >Phone</label>
-
             <div class="col-sm-6">
-
                 <input type="tel" class="form-control" id="inputTel" placeholder="XXX-XXX-XXXX">
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Reason for Inquiry dropdown menu-->
-
+        <!--Reason for Inquiry dropdown menu-->
+        <div class="form-group row">
             <label class="col-sm-4 col-form-label required alignRight"  for="reason-of-inquiry">Reason for
                 Inquiry</label>
-
             <div class="col-sm-6">
-
                 <select id="reason-of-inquiry" name="reason-of-inquiry" class="form-control">
-
                     <option value="default" selected>Catering</option>
 
                     <option value="private">Private Party</option>
@@ -140,128 +124,83 @@
                     <option value="other">Other</option>
 
                 </select>
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Textarea Additional Info section-->
-
+        <!--Textarea Additional Info section-->
+        <div class="form-group row">
             <label class="col-sm-4 col-form-label alignRight"  for="additionalInformationTextarea">Additional
                 Information</label>
-
             <div class="col-sm-6">
-
                 <textarea class="form-control2" id="additionalInformationTextarea" rows="3"></textarea>
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Radio Yes/No button-->
-
-            <div class="col-sm-4 col-form-label required alignRight" >Have you been to the restaurant?
-            </div>
-
+        <!--Radio Yes/No button-->
+        <div class="form-group row">
+            <div class="col-sm-4 col-form-label required alignRight" >Have you been to the restaurant?</div>
             <div class="col-sm-6">
-
                 <div class="form-check form-check-inline active">
-
                     <input checked="checked" class="form-check-input" type="radio" name="inlineRadioOptions"
                            id="radioNo" value="No">
-
                     <label class="form-check-label" for="radioNo">No</label>
-
                 </div>
-
                 <div class="form-check form-check-inline">
-
                     <input class="form-check-input required" type="radio" name="inlineRadioOptions" id="radioYes"
                            value="Yes">
-
                     <label class="form-check-label" for="radioYes">Yes</label>
-
                 </div>
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Check box/best day to contact section-->
-
+        <!--Check box/best day to contact section-->
+        <div class="form-group row">
             <div class="col-sm-4 col-form-label required alignRight">Best days to contact you:</div>
-
             <div class="col-sm-6">
-
                 <div class="form-check form-check-inline">
 
                     <input class="form-check-input" type="checkbox" id="monday">
-
                     <label class="form-check-label" for="monday">
-
                         M
-
                     </label>
 
                     <input class="form-check-input" type="checkbox" id="tuesday">
-
                     <label class="form-check-label" for="tuesday">
-
                         T
-
                     </label>
 
                     <input class="form-check-input" type="checkbox" id="wednesday">
-
                     <label class="form-check-label" for="wednesday">
-
                         W
-
                     </label>
 
                     <input class="form-check-input" type="checkbox" id="thursday">
-
                     <label class="form-check-label" for="thursday">
-
                         Th
-
                     </label>
 
                     <input class="form-check-input" type="checkbox" id="friday">
-
                     <label class="form-check-label" for="friday">
-
                         F
-
                     </label>
 
                 </div>
-
             </div>
-
         </div>
 
-        <div class="form-group row"> <!--Submit button!-->
-
+        <!--Submit button!-->
+        <div class="form-group row">
             <div class="col-md text-center">
-
                 <button type="submit" id="submitButton" class="btn badge-pill">Send Request</button>
-
             </div>
-
         </div>
-
     </form>
 
+
     <footer>
-
         <hr/>
-
         <p>117 Eat Street, Central City, MO, 55556</p>
-
         <p>612-456-7890</p>
-
-
     </footer>
 
 
@@ -269,21 +208,15 @@
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-
         crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-
         crossorigin="anonymous"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-
         crossorigin="anonymous"></script>
 
 

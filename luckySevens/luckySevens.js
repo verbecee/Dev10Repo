@@ -1,11 +1,16 @@
 function playGame() {
 
-var inputBet = Number(document.getElementById("inputBetHere").value); //value of input described by ID or class or tag'
+var inputBet = Number(document.getElementById("inputBetHere").value); //value of input described by ID or class or tag
 var currentMoney = inputBet;
 var rollCounter = 0;
 var maxAmountWon = currentMoney;
 var rollsAtMaxAmountWon = 0;
 
+// The func will first establish whether the player has inserted a valid bet. Once established
+// that they have inserted a valid bet, a while loop runs - while the user still has money,
+// the dice are rolled (and rollCounter increments up by 1). If the dice sum doesn't equal 7,
+// $1 is subtracted from currentMoney. If the sum is 7, add $4, and check to see if the
+// maxAmountWon exceeds currentMoney.
 
 if (inputBet <= 0){
 	alert("Error: please enter a value greater than zero.");

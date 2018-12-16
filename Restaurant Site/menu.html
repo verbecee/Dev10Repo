@@ -2,7 +2,7 @@
 <!--
     Erin Verbeck 
     Date Created: 12/4/2018 
-    Most recent revision: 12/11/2018
+    Most recent revision: 12/15/2018
 -->
 <html lang="en">
 <head>
@@ -13,6 +13,7 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+
 
     <style>
         .right-content-menu {
@@ -38,7 +39,6 @@
             width: 60%;
             margin-left: 25%;
             margin-right: 15%;
-
         }
 
         .Beverages tbody tr:nth-child(even) {
@@ -68,6 +68,7 @@
         .listStyleNone {
             list-style-type: none;
         }
+
     </style>
 </head>
 
@@ -81,6 +82,7 @@
 
 <div class="container">
 
+    <!--Home icon, menu, and contact buttons-->
     <nav>
 
         <div class="right-content"><a href="home.html" class="btn badge-pill">
@@ -96,13 +98,14 @@
     </nav>
 
     <div class="noJavaScript">
-        <noscript> <!-- if JavaScript is disabled -->
+        <noscript> <!-- This alert will show if JavaScript is disabled -->
             For full functionality of this site it is necessary to enable JavaScript.
             Here are the <a href="https://www.enable-javascript.com/">
                 instructions how to enable JavaScript in your web browser</a>.
         </noscript>
     </div>
 
+    <!--This is the start of the menu, which contains 2 rows of unordered lists.-->
     <div class="row">
 
         <div class="right-content-menu col-md">
@@ -111,7 +114,7 @@
                 <li>An American Classic!</li>
                 <li>Your choice - with or without cheese</li>
                 <li>Pickle, onion, tomato, and lettuce</li>
-                <li>Served with our famous thick cut french fries</li>
+                <li>Served with our famous thick-cut french fries</li>
                 <li>$7.95</li>
             </ul>
         </div>
@@ -135,8 +138,8 @@
                 <li>$10.95</li>
             </ul>
         </div>
-
     </div>
+
     <div class="row">
         <div class="right-content-menu col-md">
             <ul class="listStyleNone">
@@ -173,7 +176,7 @@
         </div>
     </div>
 
-
+<!--Start of the Beverages table, which is a table containing a colspan and different colored rows-->
     <table class="Beverages">
         <thead>
         <tr>
@@ -208,9 +211,10 @@
     <hr/>
     <p>117 Eat Street, Central City, MO, 55556</p>
     <p>612-456-7890</p>
-
 </footer>
 
+
+<!--Popper, JQuery, Bootstrap-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

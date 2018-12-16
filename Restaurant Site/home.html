@@ -12,29 +12,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Where to find styles for homepage:-->
     <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css"/>
-    <style>
-        .right-content {
-            float: left;
-            padding: 5px 10px;
-        }
 
-        /*in the external style sheet called restaurantStyles.css
-            nav .btn {
-                background-color: #dddf3b;
-                color: #a51818;
-            }
-            nav .btn:hover {
-                font-weight: bold;
-            } */
-        .noJavaScript {
-            text-align: center;
-            color: yellow;
-            font-size: 2.5em;
-        }
-
-
-    </style>
 </head>
 
 <body>
@@ -45,12 +26,13 @@
 
 <div class="container">
 
+    <!--Jumbotron containing message about new restaurant-->
     <div class="jumbotron">
         <h1 class="display-4">We've got some Big Belly news.</h1>
         <p class="lead">We are expanding to a new location!</p>
     </div>
 
-
+    <!--Home icon, menu, and contact buttons-->
     <nav>
         <div class="right-content"><a href="home.html" class="btn badge-pill"><i class="fa fa-home"></i></a></div>
 
@@ -65,7 +47,7 @@
 
 
     <div class="noJavaScript">
-        <noscript> <!-- if JavaScript is disabled -->
+        <noscript> <!-- This alert will show if JavaScript is disabled -->
             For full functionality of this site it is necessary to enable JavaScript.
             Here are the <a href="https://www.enable-javascript.com/">
                 instructions how to enable JavaScript in your web browser</a>.
@@ -95,7 +77,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row"> <!--Carousel contains 3 photos, text blurbs, and a navigation bar at the bottom of the carousel-->
         <div class="col-md">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -106,7 +88,7 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/grandOpening.jpg" alt="First slide">
+                        <img class="d-block w-100" src="images/burgerHappy.png" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>We're opening a new location!</h5>
                             <p id="ribbon">In February 2019, join us at our new location in Tangletown. More information
