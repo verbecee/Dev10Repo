@@ -34,7 +34,7 @@ function validateContactForm() {
    if (email == "") {
        alert("The email input must be filled in.");
        document.forms["contactUs"]["inputEmail"]
-          .className = "form-control has-error"
+          .className = "form-control has-error";
        document.forms["contactUs"]["inputEmail"].focus();
        return false;
    }
@@ -42,7 +42,7 @@ function validateContactForm() {
    if (phone == "") {
        alert("The phone number input must be filled in.");
        document.forms["contactUs"]["inputTel"]
-          .className = "form-control has-error"
+          .className = "form-control has-error";
        document.forms["contactUs"]["inputTel"].focus();
        return false;
    }	
@@ -50,7 +50,7 @@ function validateContactForm() {
 
 	alert("Data is valid. We'll respond in a flash!");
 	
-	clearErrors()   
+	clearErrors();
    
    	return false;
 
