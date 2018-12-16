@@ -43,12 +43,6 @@ footer {
 	width:100%;
 }
 
-#restaurantBurger{
-	display:block; 
-	margin-left: 30%; 
-	margin-right: 20%;
-}
-
 nav .btn {
 	background-color: #dddf3b;
 	color: #a51818;
@@ -73,7 +67,6 @@ nav .btn:active {
 }
 
 #mainPic {
-	img-fluid;
 	max-width: 100%;
 }
 
